@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> select, option, optgroup Seçim Listesi Etiketleri</title>
+</head>
+<body>
+    <h1>select</h1>
+    <select name="iller" size="1">
+        <option value="plaka54">Sakarya</option>
+        <option value="plaka06">Ankara</option>
+        <option value="plaka34">İstanbul</option>
+    </select>
+    <h1>option</h1>
+    <select name="aylar" multiple>
+        <option value="1">Ocak</option>
+        <option value="2">Şubat</option>
+        <option value="3">Mart</option>
+        <option value="4">Nisan</option>
+        <option value="5">Mayıs</option>
+        <option value="6">Haziran</option>
+    </select>
+    <h1>optgroup</h1>
+    <select name="riskharitasi" multiple>
+        <option selected value="none">Hiçbiri</option>
+        <optgroup label="Kırmızı">
+        <option value="k1">Sakarya</option>
+         <option value="k2">Konya</option>
+         <option value="k3">Balıkesir</option>
+        </optgroup>
+        <optgroup label="Sarı">
+         <option value="s1">Eskişehir</option>
+         <option value="s2">Kırşehir</option>
+         <option value="s3">Yozgat</option>
+        </optgroup>
+        <optgroup label="Turuncu">
+         <option value="t1">Artvin</option>
+         <option value="t2">Çanakkale</option>
+         <option value="t3">Kütahya</option>
+        </optgroup>
+        <optgroup label="Mavi">
+            <option value="m1">>Uşak</option>
+            <option value="m2">Batman</option>
+            <option value="m3">Ağrı</option>
+        </optgroup>
+    </select>
+    
+</body>
+</html>
