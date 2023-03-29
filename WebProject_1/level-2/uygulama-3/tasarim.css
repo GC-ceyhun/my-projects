@@ -1,0 +1,12 @@
+body{
+    background-color:skyblue;
+    }
+    li{
+    color:black;
+    font-size: 16px;
+    text-decoration: underline;
+    }
+    img{
+    width:220px;
+    height:130px;
+    }
