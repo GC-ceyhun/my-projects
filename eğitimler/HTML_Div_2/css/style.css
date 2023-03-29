@@ -1,0 +1,40 @@
+div.AnaDiv
+{
+	border: 2px solid #004658;
+	overflow: hidden;
+	margin: 7px; 
+}
+
+div#ustdivsol
+{
+	width: 200px;
+	float: left;
+}
+div#ustdivsag
+{
+
+}
+
+div#ortadiv2_1 { height: 40px; }
+div#ortadiv2_2 { height: 40px; }
+div#ortadiv2_3 { height: 40px; }
+div#ortadiv2_4 { height: 40px; }
+
+div#altdiv3_1{ height: 40px; }
+div#altdiv3_2{ height: 40px; }
+
+div#altdiv4_1 {	height: 250px; 	width: 250px; margin-left: 600px; }
+div#altdiv4_1_1 { height: 100px;	width: 100px; }
+div#altdiv4_1_2 { height: 100px;	width: 100px; }
+
+div#altdiv4_2 { height: 250px; width: 250px; margin-right: 600px; }
+div#altdiv4_2_1 { height: 100px; width: 100px; }
+div#altdiv4_2_2 { height: 100px; width: 100px; }
+
+div#altdiv4_3 {	height: 250px; width: 250px; margin-left: 600px; }
+div#altdiv4_3_1 { height: 100px; width: 100px; }
+div#altdiv4_3_2 { height: 100px; width: 100px; }
+
+div#altdiv4_4 { height: 250px; width: 250px; margin-right: 600px; }
+div#altdiv4_4_1 { height: 100px; width: 100px; }
+div#altdiv4_4_2 { height: 100px; width: 100px; }

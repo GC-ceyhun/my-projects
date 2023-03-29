@@ -1,0 +1,47 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+<body id="body">
+    <!-- ID ile erişerek HTML içeriği değiştirme-->
+    <p id="test">NORMAL YAZI</p>
+    <button type="button" onclick="degistir()">YAZI EKLE</button>
+    <button type="button" onclick="geriAl()">GERİ AL</button>
+    <hr/>
+
+    <!--Windows alert kullanımı-->
+    <button type="button" onclick="window.alert(5+6)">5 ile 6'nın toplamı</button>
+    <button onclick="showMessage()">Alert VER</button>
+    <hr/>
+
+    <!-- Konsola log düşme: tarayıcıda incele denilerek konsoldan izlenebilir loglar-->
+    <script>
+        console.log("Web debugger menüsünden konsol ekranına yazıyor");
+    </script>
+    <hr>
+    <!-- Div içeriğinde değiştirme, string işlemleri-->
+    <div id="erzurum"> Erzurum Dağları Çok Gozel</div>
+    <div id="adana"></div>
+    <button onclick="sehir()">ŞEHİR</button>
+    <hr>
+
+    <div id="kisilik"></div>
+    <button onclick="Ooptest()">TIH</button>
+    <hr>
+
+    <!--attribute değiştirme-->
+    <img id="foto1" class="kadikoy" src="kadıköy.jpeg" onmouseover="borderVurgu()" onmouseout="borderVurguSil()"/>
+    <button onclick="fotoDegistir()">Foto Değiştir</button>
+    <hr>
+
+    <input type="text" onmousedown="girdi()" />
+
+    <form>
+        <input type="radio" name="renk" id="yeşil" onclick="renklendir('yesil')" /><span style="width: 20px; height: 20px; background-color: forestgreen; color: black">Yeşil</span>
+        <input type="radio" name="renk" id="turuncu" onclick="renklendir('turuncu')" /><span style="width: 20px; height: 20px; background-color: orange; color: black">Turuncu</span>
+        <input type="radio" name="renk" id="sarı" onclick="renklendir('sarı')" /><span style="width: 20px; height: 20px; background-color: yellow; color: black">Sarı</span>
+    </form>
+
+</body>
+<script src="java.js"></script>
+</html>

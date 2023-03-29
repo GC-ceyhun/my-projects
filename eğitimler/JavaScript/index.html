@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script src="JavaScript/js.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <section class="container">
+
+        <section class="kutu">
+            <p id="merhaba">Merhaba Dünya</p>
+            <button onclick="MerhabaMesaj()" onmousewheel="Tekerlek()" onmouseover="MouseUzerinde()">TIKLA</button>
+            <input type="button" value="INPUT BUTTON" onclick="MerhabaMesaj()">
+        </section>
+    
+        <section class="kutu">
+            <p id="dunya">kutuların arka plan rengini değiştir</p>
+            <button onclick="renklendir()">RENKLENDİR</button>
+        </section>
+    
+        <section class="dunya" id="kutu3" >
+            <p id="dunya">Kutunun arkaplan rengini ıd üzerinden değiştir</p>
+            <button onclick="renklendirIDile()">Kutu3 RENKLENDİR</button>
+        </section>
+
+        <section class="kutu" id="kutu4" >
+            <p id="ekleme">Dün hava kaplıydı</p>
+            <button onclick="yaziEkle()">YAZI EKLE</button>
+        </section>
+
+        <section class="kutu" id="kutu5" >
+            <p id="isim"></p>
+            <button onclick="isimEkle()">İSİM EKLE</button>
+        </section>
+        
+        <section class="kutu" id="kutu6" >
+            sayi:<input type="text" id="input_sayi">
+            <button onclick="sayiGir()">Sayi Gir</button>
+        </section>
+
+        <section class="kutu" id="kutu7" >
+            <img class="Kadikoy" id="foto" src="img/kadikoy.jpeg">
+            <button onclick="fotoDegistir1()">Foto Degiştir</button>
+        </section>
+        <h1>cancan</h1>
+    </section>
+</body>
+</html>

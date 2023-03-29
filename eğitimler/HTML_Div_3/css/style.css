@@ -1,0 +1,31 @@
+div.DivGenel
+{
+	border: 2px solid #004658;
+	overflow: hidden;
+	margin: 7px; 
+}
+div#ustbaslikcontainer{}
+
+div#navmenu { padding: 1px; }
+
+div#logo { float: left; }
+div#logo img { width: 100px; height: 32px; }
+
+div#navmenu ul { list-style: none; }
+div#navmenu ul li { float: left; margin-right: 3px; font-weight: bold; }
+
+div#navigasyon ul { list-style: none; }
+div#navigasyon ul li { float: left; margin-right: 3px; font-weight: bold; }
+
+div#maincontainer {margin: auto;}
+div#ustgorselcontainer { text-align: center; }
+
+div#oiu_1_sol { float: left; width: 40%; text-align: center; }
+div#oiu_1_orta { float: left; width: 15.5%; text-align: center;}
+div#oiu_1_sag { float: left; width: 40%; text-align: center; }
+
+div.img { float: left; }
+div.bilgi { float: left; }
+
+div#oiu_2{ width: 60%; margin: auto; padding: 20px; margin-bottom: 10px;}
+div.ResimliKutu { float: left; margin-left: 7%; width: 40%;}

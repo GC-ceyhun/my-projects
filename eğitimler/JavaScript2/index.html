@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 2px solid #00ba18;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 5px;
+            row-gap: 5px;
+            padding: 15px;
+            border-radius: 3px;
+        }
+
+        .kutu {
+            background-color: #f2f3ca;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px #007d7d solid;
+
+        }
+
+        .konu {
+            font-size: 18px;
+            display: block;
+            border: ridge 2px #ff8f00;
+            border-radius: 3em;
+            padding: 3px;
+        }
+
+        button {
+            width: 200px;
+            height: 80px;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="container">
+        <section class="kutu">
+            <p class="konu"> Stil değişikliği </p>
+            <br>
+            <button onclick="this.style.display='none'"> Butonu silmek için tıkla </button>
+        </section>
+
+        <section class="kutu">
+            <p class="konu"> Class Yapısı</p>
+            <br>
+            <form>
+                <input type="text" id="input_tc"/>
+                <input type="text" id="input_ad"/>
+                <button onclick="bilgiGoster()">Bilgi Göster</button>
+            </form>
+        </section>
+
+        <section class="kutu">
+            <p class="konu"> Class Liste </p>
+            <br/>
+            <p id="classliste" class="test1 test2 test3" >O class buraya gelsin mi ?</p>
+            <button onclick="classlistele()"> Sınıf Listesi </button>
+        </section>
+
+        <section class="kutu">
+            <p class="konu"> Whlile Döngüsü </p>
+            <br>
+            <p> Doğum yılı : <span id="dogumyili">1888</span></p>
+            <button onclick="dogumyilikontrol()"> Doğum Yılı Kontrol </button>
+        </section>
+
+        <section class="kutu" id="kutu6">
+            <p class="konu">ColorPicker</p>
+            <br>
+            <input type="color" id="renk" onchange="renklendir()">
+        </section>
+        
+    </section>
+
+</body>
+
+<script src="script.js" ></script>
+</html>

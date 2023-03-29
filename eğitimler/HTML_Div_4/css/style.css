@@ -1,0 +1,65 @@
+div.GenelDiv
+{
+	border: 2px solid #004658;
+	overflow: hidden;
+	margin: 7px; 
+	background-color: #eee8aa;
+}
+
+
+
+
+
+div#navbar { background-color: #ffe4b5; }
+div#navbar ul { list-style: none; }
+div#navbar ul li { float: left; margin: 1px 30px 10px 10px; font-weight: bold; }
+div#navbar ul li a:hover{color: white;}
+div#navbar ul li a{text-decoration: none;}
+
+div#logo { float: left; }
+div#logo img { width: 100%; height: auto; }
+
+div#bolum { float: left; width: 60%; }
+div#resim img { float: left; width: 360px; height: 198px;}
+
+div#tanitim { float: right; width: 50%; height: 200px; background-color: #eecfa1}
+div#tanitim ul { list-style: none; }
+div#tanitim ul li { margin-right: 100px; font-weight: bold; }
+
+div#makale { float: left; width: 60%; height: 200px; background-color: #eecfa1}
+
+div#video { float: left; width: 37%; height: 310px; margin-top: -170px;}
+
+div#footer { float: left; width: 98.5%; height: 80px; background-color: #f4a460; text-align: center; }
+div#footer ul { list-style: none; }
+div#footer ul li { margin-right: 100px; font-weight: bold; }
+
+
+table {
+	font-size: 1em;
+}
+
+.style-description {
+	clear: both;
+	padding: 12px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+
+
+.paragraf
+{
+    border : double 2px green;
+    padding : 20px;
+    margin-left : 15px;
+    margin-right : 15%;
+    width : 60%;
+    height : auto;
+    background-color : #ffd800;
+
+}

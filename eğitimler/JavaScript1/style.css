@@ -1,0 +1,14 @@
+body
+{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+button
+{
+    width: 220px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}

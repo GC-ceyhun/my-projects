@@ -1,0 +1,58 @@
+div.AnaSayfaDiv
+{
+	border: solid tomato 3px;
+	margin: 10px;
+	background-color: aqua;
+}
+
+div.AnaSayfaIcDiv
+{
+	background-color: #ABC888 !important;
+}
+
+div#containerdiv
+{
+	width: 900px;
+	float: left;
+	background-color: #b9ab69;
+	margin-left: calc(50% - 450px);
+}
+
+div#ustdiv
+{
+	height: 140px;
+}
+
+div#menudiv
+{
+	height: 30px;
+}
+
+div#solanadiv
+{
+	width: 200px;
+	float: left;
+}
+div#soldiv{height: 370px;}
+div#reklamdiv{height: 120px;}
+
+div#sliderdiv
+{
+	width: calc(100% - 264px);
+	height: 140px;
+	float: left;
+}
+
+div#alticerikdiv
+{
+	float: left;
+	width: calc(100% - 264px);
+	height: 370px;
+}
+
+div#footerdiv
+{
+	float: left;
+	width: 97%;
+	height: 65px;
+}
